@@ -1,0 +1,10 @@
+<VirtualHost *:80>
+    ServerName {serverName}
+    DocumentRoot {appPath}/
+    <Directory "{appPath}">
+        Options FollowSymLinks
+        AllowOverride All
+        Order allow,deny
+        Allow From All
+    </Directory>
+</VirtualHost>

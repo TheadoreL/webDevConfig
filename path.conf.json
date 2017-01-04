@@ -1,0 +1,18 @@
+{
+  "os": "osx",
+  "server": "apache",
+  "paths":
+  {
+    "vhosts": "/etc/apache2/other/",
+    "hosts": "/etc/hosts",
+    "wwwRoot": "/Library/WebServer/Documents/"
+  },
+  "indexPath":
+    [
+      "/public",
+      "/www/public",
+      "/Public"
+    ]
+  ,
+  "domain": ".dev.net"
+}
