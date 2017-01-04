@@ -3,9 +3,10 @@
 import os
 import json
 import re
+import sys
 
-configPath = "./path.conf.json"
-confTempPath = "./vhosts.conf.temp"
+configPath = sys.path[0]+"/path.conf.json"
+confTempPath = sys.path[0]+"/vhosts.conf.temp"
 confFile = open(configPath)
 conf = json.load(confFile)
 
