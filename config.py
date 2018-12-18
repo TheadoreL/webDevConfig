@@ -45,10 +45,12 @@ def restartHttp():
         os.system("apachectl restart")
     elif judge == "osx-nginx":
         os.system("brew services restart nginx")
+    else:
+        print('You should restart your http server')
 
 #append hosts file
 def appendHosts(appDomain):
-    hostStr = '# th-webDevConfig of '+appDomain+'\n127.0.0.1\t'+appDomain
+    hostStr = '\n# th-webDevConfig of '+appDomain+'\n127.0.0.1\t'+appDomain
     with open(conf['paths']['hosts'],'a') as hostFile:
         hostFile.write(hostStr)
 
