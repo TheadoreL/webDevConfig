@@ -36,9 +36,8 @@
         Allow From All
     </Directory>
 </VirtualHost>
-```
 
-#### direct use on max os
+####direct use on mac os
 
 `chmod a+x config.py`
 
