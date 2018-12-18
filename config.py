@@ -6,7 +6,7 @@ import re
 import sys
 
 configPath = sys.path[0]+"/path.conf.json"
-confTempPath = sys.path[0]+"/vhosts.conf.temp"
+confTempPath = sys.path[0]+"/nginx.conf.temp"
 confFile = open(configPath)
 conf = json.load(confFile)
 
@@ -43,6 +43,8 @@ def restartHttp():
     judge = conf['os']+"-"+conf['server']
     if judge == "osx-apache":
         os.system("apachectl restart")
+    elif judge == "osx-nginx":
+        os.system("brew services restart nginx")
 
 #append hosts file
 def appendHosts(appDomain):

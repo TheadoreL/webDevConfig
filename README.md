@@ -38,7 +38,7 @@
 </VirtualHost>
 ```
 
-####direct use on max os
+#### direct use on max os
 
 `chmod a+x config.py`
 

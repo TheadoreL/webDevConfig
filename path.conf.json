@@ -1,9 +1,9 @@
 {
   "os": "osx",
-  "server": "apache",
+  "server": "nginx",
   "paths":
   {
-    "vhosts": "/etc/apache2/other/",
+    "vhosts": "/usr/local/etc/nginx/conf.d/",
     "hosts": "/etc/hosts",
     "wwwRoot": "/Library/WebServer/Documents/"
   },
