@@ -23,7 +23,7 @@
   "domain": ".dev.net"    //development domain
 }
 ```
-#### template file spec (vhosts.conf.temp)
+#### Template file spec (vhosts.conf.temp)
 
 ```
 <VirtualHost *:80>
@@ -38,13 +38,13 @@
 </VirtualHost>
 ```
 
-#### direct use on mac os
+#### Direct use on mac os
 
 `chmod a+x config.py`
 
 `ln -s path to project/config.py /usr/local/bin/webconfig`
 
-**contact me:**
+**Contact me:**
 
 https://aloha.one
 
