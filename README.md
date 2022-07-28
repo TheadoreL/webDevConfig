@@ -1,7 +1,7 @@
 # Read me
 ### This is a python tool to generate vhosts config file and append hosts for development
-### developed by python3
-#### config file spec (path.conf.json)
+### Developed by python3
+#### Config file spec (path.conf.json)
 
 ```
 {
