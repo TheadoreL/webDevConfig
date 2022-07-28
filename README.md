@@ -38,7 +38,7 @@
 </VirtualHost>
 ```
 
-####direct use on mac os
+#### direct use on mac os
 
 `chmod a+x config.py`
 
